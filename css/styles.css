@@ -1,0 +1,246 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-black";
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  color: #fff;
+}
+
+/* Title section */
+#title {
+  background-color: #2B7A0B;
+  color: #fff;
+  font-style: normal;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+    top: 0;
+    width: 100%;
+}
+.ic
+{
+  font-size:37px;
+  color:#553939;
+  margin-left:10px;
+}
+.navbar-brand {
+  font-family:serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color:#082032;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+}
+
+/* Download-buttons */
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* zoro picture */
+.zoro-png {
+  width: 100%;
+  margin-left: 228px;
+
+}
+
+.pad-less {
+  padding-bottom: 0;
+}
+
+/* for mobile */
+@media (max-width:1000px) {
+  .pad-less {
+    text-align: center;
+  }
+}
+
+/* Features */
+#features {
+  background-color: #FAF5E4;
+}
+
+.cf-box {
+  padding: 3% 10%;
+  margin: 0;
+}
+
+.v1
+{
+  color:black;
+}
+
+.f-box {
+  text-align: center;
+  padding: 4%;
+}
+
+.icon {
+  color: #fab005;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #7DCE13;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #EC7272;
+  color: #fff;
+}
+
+.ct-box {
+  padding: 5% 15%;
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
+  color:black;
+}
+
+.zoro-test, .luffy-test {
+  border-radius: 50%;
+  width: 13%;
+  margin: 1rem;
+}
+
+
+
+/* Pricing */
+#pricing {
+  background-color: #90B77D;
+  color: #fff;
+}
+.head1
+{
+  color:black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.lar
+{
+  font-size:25px;
+}
+.pr-box {
+  padding: 2% 10% 0;
+  margin: 0;
+  text-align: center;
+}
+
+.potti-potti {
+  padding: 0 auto 5% auto;
+  margin: 0;
+}
+
+.cd-title {
+  background-color: #3E4149;
+  text-align: center;
+  justify-content: center;
+}
+
+.cd-body {
+  background-color: #fff;
+}
+
+.p-color {
+  color: #D61C4E;
+  font-weight:550;
+}
+
+.card-footer {
+  text-align: center;
+  background-color: #fff;
+  border: none;
+}
+
+.ta-box {
+  text-align: center;
+}
+
+.potti {
+  margin: 0.5rem;
+
+}
+
+/* Contact section */
+#cta {
+  background-color: #fab005;
+  color: black;
+}
+
+.cta-box {
+  padding: 5% 15% 2%;
+  margin: 0;
+  text-align: center;
+}
+
+.cta-buttons {
+  margin: 1% 2% 3% 0;
+}
+
+/* Footer section */
+#footer {
+  background-color: #00909E;
+  color: #fff;
+}
+
+.ft-box {
+  padding: 2% 10% 1%;
+  margin: 0;
+  text-align: center;
+}
+
+.h3-class {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 1%;
+}
+
+.footer-link:hover {
+  color: #FBDF07;
+}
+
+.cright {
+  margin: 2% 15% 0 15%;
+}
