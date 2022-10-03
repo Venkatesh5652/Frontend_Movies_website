@@ -1,146 +1,138 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-h1 {
-  font-family: "Montserrat";
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
-  color: #fff;
-}
-
-h2 {
-  font-family: "Montserrat-bold";
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: "Montserrat-black";
-  font-size: 1.5rem;
-  font-weight: 600;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
 }
 
 p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
   color: #fff;
 }
 
-/* Title section */
-#title {
-  background-color: #2B7A0B;
-  color: #fff;
-  font-style: normal;
+.white-section {
+  background-color: #fff;
 }
 
-.container-fluid {
-  padding: 3% 15%;
-}
+/* Navigation Bar */
 
-/* Navigation bar */
 .navbar {
   padding: 0 0 4.5rem;
-    top: 0;
-    width: 100%;
 }
-.ic
-{
-  font-size:37px;
-  color:#553939;
-  margin-left:10px;
-}
+
 .navbar-brand {
-  font-family:serif;
-  font-size: 3.5rem;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
   font-weight: bold;
-  color:#082032;
 }
 
 .nav-item {
-  font-size: 1.5rem;
-  font-weight: 500;
-  padding: 0 10px;
+  padding: 0 18px;
 }
 
 .nav-link {
-  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
 }
 
-/* Download-buttons */
-.download-buttons {
+/* Buttons */
+
+.download-button {
   margin: 5% 3% 5% 0;
 }
 
-/* zoro picture */
-.zoro-png {
-  width: 100%;
-  margin-left: 228px;
+/* Title Section */
 
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
 }
 
-.pad-less {
-  padding-bottom: 0;
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
-/* for mobile */
-@media (max-width:1000px) {
-  .pad-less {
-    text-align: center;
-  }
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
-/* Features */
+/* Features Section */
+
 #features {
-  background-color: #FAF5E4;
+  position: relative;
 }
 
-.cf-box {
-  padding: 3% 10%;
-  margin: 0;
+.feature-title {
+  font-size: 1.5rem;
 }
 
-.v1
-{
-  color:black;
-}
-
-.f-box {
-  text-align: center;
-  padding: 4%;
+.feature-box {
+  padding: 4.5%;
 }
 
 .icon {
-  color: #fab005;
+  color: #ef8172;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #7DCE13;
+  color: #ff4c68;
 }
 
-/* Testimonials */
+/* Testimonial Section */
+
 #testimonials {
-  background-color: #EC7272;
-  color: #fff;
+  background-color: #ef8172;
 }
 
-.ct-box {
-  padding: 5% 15%;
-  margin: 0;
-  text-align: center;
-  text-decoration: underline;
-  color:black;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-.zoro-test, .luffy-test {
-  border-radius: 50%;
-  width: 13%;
-  margin: 1rem;
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
 
 
-/* Pricing */
+/* Pricing Section */
+
 #pricing {
   background-color: #90B77D;
   color: #fff;
@@ -154,6 +146,7 @@ p {
 .lar
 {
   font-size:25px;
+  color:white;
 }
 .pr-box {
   padding: 2% 10% 0;
@@ -196,51 +189,22 @@ p {
 
 }
 
-/* Contact section */
-#cta {
-  background-color: #fab005;
-  color: black;
+/* CTA Section */
+
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
 }
 
-.cta-box {
-  padding: 5% 15% 2%;
-  margin: 0;
-  text-align: center;
-}
+@media (max-width: 1028px) {
 
-.cta-buttons {
-  margin: 1% 2% 3% 0;
-}
+  #title {
+    text-align: center;
+  }
 
-/* Footer section */
-#footer {
-  background-color: #00909E;
-  color: #fff;
-}
-
-.ft-box {
-  padding: 2% 10% 1%;
-  margin: 0;
-  text-align: center;
-}
-
-.h3-class {
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.footer-link {
-  color: #fff;
-  text-decoration: none;
-  margin: 1%;
-}
-
-.footer-link:hover {
-  color: #FBDF07;
-}
-
-.cright {
-  margin: 2% 15% 0 15%;
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
